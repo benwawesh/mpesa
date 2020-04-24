@@ -1,9 +1,11 @@
 import requests
-from src.daraja.samples import important
-from src.daraja.samples.access_token import generate_access_token
-from src.daraja.samples.password import password_generator
-from src.daraja.samples.dateformat import date_generator
+import base64
+import important
+from access_token import generate_access_token
+from password import password_generator
+from dateformat import date_generator
 # from datetime import datetime
+from requests.auth import HTTPBasicAuth
 # print(datetime.now())
 # unformatted_time =datetime.now()
 # formatted_time= unformatted_time.strftime("%Y%m%d%H%M%S")

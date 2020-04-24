@@ -1,7 +1,7 @@
 import requests
-from src.daraja.samples import important
+import important
 from requests.auth import HTTPBasicAuth
-from src.daraja.samples.access_token import generate_access_token
+from access_token import generate_access_token
 
 
 consumer_key = important.consumer_key
